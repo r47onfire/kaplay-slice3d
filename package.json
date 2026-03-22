@@ -15,8 +15,7 @@
     },
     "scripts": {
         "dev": "vite dev",
-        "build": "vite build",
-        "prepare": "npm run build"
+        "build": "vite build"
     },
     "files": [
         "dist/",
