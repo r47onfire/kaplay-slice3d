@@ -27,11 +27,11 @@
     "devDependencies": {
         "@kaplayjs/crew": "^2.1.0",
         "@types/node": "^22.10.5",
-        "kaplay": "4000.0.0-alpha.26",
+        "kaplay": "^4000.0.0-alpha.26",
         "vite": "^6.0.7",
         "vite-plugin-dts": "^4.4.0"
     },
     "peerDependencies": {
-        "kaplay": "4000.0.0-alpha.26"
+        "kaplay": "^4000.0.0-alpha.26"
     }
 }
