@@ -1,0 +1,38 @@
+{
+    "name": "@r47onfire/kaplay-slice3d",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Render pseudo-3D by sprite slicing.",
+    "main": "./dist/plugin.umd.cjs",
+    "module": "./dist/plugin.js",
+    "types": "./dist/plugin.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/plugin.d.ts",
+            "import": "./dist/plugin.js",
+            "require": "./dist/plugin.umd.cjs"
+        }
+    },
+    "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "prepare": "npm run build"
+    },
+    "files": [
+        "dist/",
+        "README.md"
+    ],
+    "keywords": [],
+    "author": "",
+    "license": "GPL-3.0-only",
+    "devDependencies": {
+        "@kaplayjs/crew": "^2.1.0",
+        "@types/node": "^22.10.5",
+        "kaplay": "4000.0.0-alpha.26",
+        "vite": "^6.0.7",
+        "vite-plugin-dts": "^4.4.0"
+    },
+    "peerDependencies": {
+        "kaplay": "4000.0.0-alpha.26"
+    }
+}
