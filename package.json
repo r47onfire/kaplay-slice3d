@@ -13,6 +13,10 @@
             "require": "./dist/plugin.umd.cjs"
         }
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/r47onfire/kaplay-slice3d"
+    },
     "scripts": {
         "dev": "vite dev",
         "build": "vite build"
